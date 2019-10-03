@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author aaron
  */
-public class Clase_1 {
+public class Casteo_basic {
 
     /**
      * @param args the command line arguments

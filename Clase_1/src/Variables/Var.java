@@ -3,18 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Variables;
 
 /**
  *
  * @author Aaron Velasco
  */
-public class Saludo {
-    
+public class Var {
+
     public static void main(String[] args) {
+        int numero = 2;
+        float flotante = 2.211F;
+        double doble = 12.21;
         
-        String             saludo= "Hola";
-        System.out.println("Hola mundo ");
+        char var = 'a';
+        String cadena = "Hola";
+        boolean flag = true;
+    
+        
         
     }
-    
+
 }

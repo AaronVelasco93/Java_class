@@ -10,6 +10,13 @@ package SobreCarga;
  * @author Aaron Velasco
  */
 public class Sobrecarga {
+    int NumeroA;
+    int NumeroB;
+    
+    //Contructor
+    public Sobrecarga() {
+    }
+    
     
     //Funcion sobrecargada
     static int suma(int a, int b){
@@ -23,5 +30,19 @@ public class Sobrecarga {
         suma = a * pesoA/ (pesoA + pesoB)+ b * pesoB / (pesoA + pesoB);
         return suma;
     }    
+    
+    
+    public static void main(String[] args) {
+        
+        int Num1;
+        int Num2;
+        
+        Num1=10;
+        Num2=2;
+
+        
+        
+        System.out.println(suma(Num1, Num2));
+    }
     
 }
